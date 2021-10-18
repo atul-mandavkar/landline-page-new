@@ -1,0 +1,91 @@
+body{
+  background-color: aliceblue;
+}
+header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  z-index: 2;
+}
+#headerSec{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headerFlex{
+  flex: 1;
+}
+#menuShortcuts{
+  display: flex;
+  flex-direction: row;
+}
+.menu{
+  flex: 1;
+  width: 33.33%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+article{
+  position: relative;
+  top: 300px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+h2{
+  font-size: 28px;
+}
+input[type=email]{
+  width: 300px;
+  height: 40px;
+  font-size: 26px;
+  background-color: blanchedalmond;
+  margin-bottom: 10px;
+}
+button{
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: gold;
+}
+table{
+  margin: 100px 0;
+}
+.logoSec{
+  width: 10%;
+}
+.logoInfo{
+  text-align: left;
+}
+h3{
+  font-size: 26px;
+}
+p{
+  font-size: 20px;
+}
+iframe{
+  width: 100%;
+  height: 450px;
+  margin: 50px 0;
+}
+
+@media (max-width: 600px) {
+  #headerSec, #menuShortcuts{
+    flex-direction: column;
+  }
+  .menu, article{
+    width: 100%;
+  }
+  .logoSec{
+    display: none;
+  }
+  .logoInfo{
+    text-align: center;
+  }
+}

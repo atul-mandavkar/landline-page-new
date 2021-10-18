@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landline page project</title>
+    <link rel="stylesheet" href="./public/style.css" />
+  </head>
+  <body>
+    <header id="headerSec">
+      <div class="headerFlex" id="nameOfCompany">
+        <a href="#" id="mainPage">
+          <img src="./images/ScreenshotOfTheNameOfCompany.png" alt="Original Thrombones" />
+        </a>
+      </div>
+      <div class="headerFlex" id="menuShortcuts">
+        <a href="#features" class="menu" id="menu1">Features</a>
+        <a href="#works" class="menu" id="menu2">How it works</a>
+        <a href="#pricing" class="menu" id="menu3">Pricing</a>
+      </div>
+    </header>
+    <article id="articleSec">
+      <div id="info">
+        <h2 id="info1">Handcrafted, homemade masterpieces</h3>
+        <form id="info2">
+          <label for="emailLabel">
+            <input type="email" placeholder="Enter your email" id="emailLabel" />
+          </label><br />
+          <button id="submit">Get started</button>
+        </form>
+      </div>
+      <div id="features">
+        <table id="featuresContainer">
+          <tr class="row">
+          <td class="logoSec">
+            <img src="./images/ScreenshotOfLogePremiumMaterial.png" width="150px" height="150px" id="logo1" />
+          </td>
+          <td class="logoInfo">
+            <h3>Premium material</h3>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </td>
+          </tr>
+          <tr class="row">
+            <td class="logoSec">
+              <img src="./images/ScreenshotOfLogoFastDelivery.png" width="150px" height="150px" id="logo2" />
+            </td>
+            <td class="logoInfo">
+              <h3>Fast shipping</h3>
+              <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </td>
+          </tr>
+          <tr class="row">
+            <td class="logoSec">
+              <img src="./images/ScreenshotOfLogoQualityAssuarance.png" width="150px" height="150px" id="logo3" />
+            </td>
+            <td class="logoInfo">
+              <h3>Quality assuarance</h3>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </article>
+    <article id="works">
+      <!--We don't use video tag to show embeded video for that best option is ifram And also we need not to save video within webproject -->
+      <iframe src="https://youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" id="video">
+      </iframe>
+    </article>
+    <article id="pricing"></article>
+  </body>
+</html>
