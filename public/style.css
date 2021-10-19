@@ -99,6 +99,9 @@ aside{
   text-align: center;
   border: 1px solid black;
 }
+.items:hover{
+  flex-grow: 3;
+}
 .itemHeading{
   background-color: gray;
   margin-top: 0;
