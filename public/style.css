@@ -85,6 +85,17 @@ iframe{
   .menu, article{
     width: 100%;
   }
+  h2{
+    font-size: 26px;
+  }
+  input[type=email]{
+    height: 30px;
+    font-size: 24px;
+  }
+  button{
+    height: 40px;
+    font-size: 14px;
+  }
   .logoSec{
     display: none;
   }
