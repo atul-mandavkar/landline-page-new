@@ -108,7 +108,7 @@ iframe{
   p{
     font-size: 18px;
   }
-  iframe{
+  #iFR{
     height: 200px;
   }
 }
